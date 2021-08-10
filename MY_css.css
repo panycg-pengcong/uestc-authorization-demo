@@ -1,0 +1,76 @@
+* {
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+.authorization {
+    text-align: left;
+    font-size: 24px;
+    color: green;
+    font-weight: bolder;
+    padding-top: 66px;
+    padding-bottom: 43px;
+    padding-left: 16px;
+}
+
+hr {
+    border: none;
+	height: 0.8px;
+	background-color: rgb(204, 204, 204);
+}
+
+.left_info {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    padding-left: 55px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+
+.right_info {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+}
+
+.time_left_info {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+.time_right_info {
+    font-size: 18px;
+    color: #0cc0a2;
+    font-weight: bolder;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.but_td {
+    padding-top: 15px;
+}
+
+.but {
+    width: 130px;
+    height: 38px;
+    background-color: rgb(0, 196, 164);
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border: none;
+    
+}
+
+.school_img_td {
+    padding-top: 60px;
+}
+
+.school_img {
+    width: 100px;
+}
