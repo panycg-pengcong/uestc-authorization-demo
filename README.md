@@ -2,8 +2,8 @@ UESTC Enrollment Authorization Page (HTML + CSS Primary version)
 
 The following issues are subject to update:
 
-Icon to update;
-Date scroll effect;
-Fit to the phone;
-Color, size and other details;
-others.
+1. Icon to update;
+2. Date scroll effect;
+3. Fit to the phone;
+4. Color, size and other details;
+5. others.
