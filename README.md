@@ -1,5 +1,5 @@
 # uestc-authorization-demo
-UESTC Enrollment Authorization Page (HTML + CSS Primary version)
+UESTC Enrollment Authorization Page (HTML + CSS + JavaScript Primary version)
 
 debug2 update：
 1. Fit to the phone;
