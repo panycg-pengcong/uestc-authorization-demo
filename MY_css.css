@@ -40,20 +40,20 @@ hr {
     font-size: 16px;
     color: rgb(68, 68, 68);
     padding-left: 55px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 9px;
 }
-.time_right_info {
-    font-size: 18px;
+#time_right_info {
+    font-size: 19px;
     color: #0cc0a2;
     font-weight: bolder;
     padding-right: 14px;
-    padding-top: 10px;
+    padding-top: 9px;
     padding-bottom: 9px;
 }
 
 .but_td {
-    padding-top: 15px;
+    padding-top: 11px;
 }
 
 .but {

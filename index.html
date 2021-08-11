@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="img/title_icon.ico" rel="icon" type="image/x-icon" />
     <title>平安成电智慧通行</title>
     <link rel="stylesheet" href="MY_css.css">
@@ -20,7 +21,7 @@
         </tr>
         <tr>
             <td class="time_left_info" align="left" width="50%">登记时间</td>
-            <td class="time_right_info" align="right" width="50%">2021-08-10 09:50:00</td>
+            <td id="time_right_info" align="right" width="50%"></td>
         </tr>
             <td class="but_td" colspan="2" align="center">
                 <input class="but" type="button" value="前往个人二维码">
@@ -31,5 +32,32 @@
             </td>
         </tr>
     </table>
+    <script>
+        function trans_string(time) {
+            if(time < 10) {
+                return "0"+time.toString();
+            }
+            return time.toString();
+        }
+        
+        let time = new Date();
+        let time_string = {
+            "year": time.getFullYear().toString(),
+            "Month": trans_string(Number(time.getMonth())+1),
+            "Day": trans_string(Number(time.getDate())),
+            "Hour": trans_string(Number(time.getHours())),
+            "Minutes": trans_string(Number(time.getMinutes())),
+            "Seconds": trans_string(Number(time.getSeconds())),
+        };
+        let time_string_out = time_string.year+"-"+time_string.Month+"-"+time_string.Day+"  "+time_string.Hour+":"+time_string.Minutes+":"+time_string.Seconds;
+        let time_td = document.getElementById("time_right_info");
+        let marquee = document.createElement("marquee");
+        marquee.width = "175px";
+        marquee.behavior = "scroll";
+        marquee.scrollDelay = "1500";
+        marquee.scrollAmount = "60";
+        marquee.innerHTML = time_string_out + "  " + time_string_out;
+        time_td.appendChild(marquee);
+    </script>
 </body>
 </html>
